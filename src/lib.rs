@@ -6,6 +6,10 @@ pub fn hello() -> String {
     "hellope!".into()
 }
 
+pub fn hello_2() -> String {
+    "hellope from lucylib version 2!".into()
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
